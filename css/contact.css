@@ -1,0 +1,28 @@
+.contact-content{
+    height: 400px;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url("../img/typing.jpg");
+    position: absolute; 
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 23px;
+    z-index: -1;
+
+}
+
+.contact-form{
+    margin: 15px;
+}
+
+
+
+   
